@@ -1,4 +1,4 @@
-## Extended kalman filter project for vehicle lidar & radar sensor fusion
+ ## Unscented kalman filter project for vehicle lidar & radar sensor fusion
 This is a project for Udacity Self-Driving Car Nanodegree program. In this project, I implemented a unscented kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. All codes are written with C++ and tested on the Udacity simulator 
 
 ## Requirement 
@@ -29,9 +29,9 @@ Once the install for uWebSocketIO is complete, the main program can be built and
 5. ./ExtendedKF
 
 ## About the Project 
-I constructed the C++ software mostly based on the lecture. But, I tried to pick the best initial values(position, noise value and so on) to get best performance (low RMSE).The performance of my unscented kalman filter is evaluated by the RMSE(Root mean squared error) of position x,y and velocity vx,vy. I got 0.0689, 0.0811, 0.3319, 0.2284 for each , which is quite accurate number to the ground truth and better performance than Extended Kalman Filter! 
+I constructed the C++ software mostly based on the lecture. But, I tried to pick the best initial values(position, noise, noise covariance value and so on) to get best performance (low RMSE).The performance of my unscented kalman filter is evaluated by the RMSE(Root mean squared error) of position x,y and velocity vx,vy. I got 0.0689, 0.0811, 0.3319, 0.2284 for each, which is quite accurate to the ground truth and better performance than Extended Kalman Filter! 
 This is my result image:  
-![Test image](https://github.com/KHKANG36/Unscenteded-Kalman-Filter-Project/blob/master/dataset1.png)
+![Test image](https://github.com/KHKANG36/Unscented-Kalman-Filter-Project/blob/master/dataset1.png)
 
 
 ## Discussion/Issues 
